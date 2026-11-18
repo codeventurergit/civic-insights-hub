@@ -1,43 +1,72 @@
 %PDF-1.4
 1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
-2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
-3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >> endobj
-4 0 obj << /Length 1042 >> stream
+2 0 obj << /Type /Pages /Kids [3 0 R 4 0 R 5 0 R] /Count 3 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> >> endobj
+4 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> >> endobj
+5 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 8 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R >> >> >> endobj
+6 0 obj << /Length 606 >> stream
 BT
 /F1 11 Tf
-50 740 Td
-16 TL
-/F2 13 Tf (CIVIC INSIGHTS HUB - EAVS & TRANSIT SYNTHETIC BRIEF \(MOCK DATA\)) Tj T* /F1 11 Tf
+50 730 Td
+18 TL
+/F2 13 Tf (CIVIC INSIGHTS HUB - MULTI-PAGE EAVS BRIEF \(PAGE 1 OF 3\)) Tj T* /F1 11 Tf
 (Document ID: CIH-2026-EAVS-01 | Classification: 100% SYNTHETIC DEMO) '
 (-------------------------------------------------------------------------) '
-(1. PURPOSE OF DOCUMENT) '
-(Demonstrates zero-download, in-browser PDF reading inside our Angular SPA.) '
-(In production, this file sits in a private AWS S3 bucket and loads via a) '
-(5-minute S3 Presigned URL with Content-Disposition: inline.) '
+(1. EXECUTIVE OVERVIEW) '
+(This 3-page PDF demonstrates seamless, multi-page document reading directly) '
+(inside our Angular Single Page Application with zero file downloads.) '
 () '
-(2. SIMULATED EAVS & CIVIC METRICS) '
-(- Simulated Mail Ballot Acceptance Rate: 98.4% \(+1.2% vs baseline\)) '
-(- Provisional Ballot Processing Time: 1.6 days average) '
-(- Office Docs \(.docx/.xlsx\): Rendered inline via Web Viewer Strategy) '
+(In production, this document is stored in a private AWS S3 bucket and) '
+(delivered via a 5-minute S3 Presigned URL with Content-Disposition: inline.) '
+ET
+endstream endobj
+7 0 obj << /Length 580 >> stream
+BT
+/F1 11 Tf
+50 730 Td
+18 TL
+/F2 13 Tf (CIVIC INSIGHTS HUB - MULTI-PAGE EAVS BRIEF \(PAGE 2 OF 3\)) Tj T* /F1 11 Tf
+(Simulated EAVS & Precinct Telemetry Analysis) '
+(-------------------------------------------------------------------------) '
+(2. KEY SIMULATED METRICS) '
+(- Mail Ballot Acceptance Rate: 98.4% \(+1.2% vs prior baseline\)) '
+(- Provisional Ballot Processing Time: 1.6 days average across districts) '
+(- Precinct Sensor Uptime: 99.7% across 1,240 simulated voting locations) '
 () '
-(3. SOLID ARCHITECTURE & SECURITY) '
+(Scroll down to Page 3 to review the SOLID Java & AWS Security Architecture.) '
+ET
+endstream endobj
+8 0 obj << /Length 582 >> stream
+BT
+/F1 11 Tf
+50 730 Td
+18 TL
+/F2 13 Tf (CIVIC INSIGHTS HUB - MULTI-PAGE EAVS BRIEF \(PAGE 3 OF 3\)) Tj T* /F1 11 Tf
+(SOLID Architecture & Production Security Roadmap) '
+(-------------------------------------------------------------------------) '
+(3. ARCHITECTURE SUMMARY) '
+(- Frontend: Angular SPA on Vercel Edge CDN \(Zero server maintenance\)) '
 (- Auth: AWS Amplify \(Cognito\) Member Login & Passwordless Magic Links) '
-(- Backend: Java 21 Spring Boot Lambdas \(Strategy + Decorator Patterns\)) '
+(- Backend: Java 21 Spring Boot Lambdas using Strategy + Decorator Patterns) '
 (- AI Q&A: Synchronous Bedrock RAG/SQL \(1-3s\) + SQS Dead Letter Queue) '
 ET
 endstream endobj
-5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
-6 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
+9 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+10 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
 xref
-0 7
+0 11
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000115 00000 n 
-0000000251 00000 n 
-0000001345 00000 n 
-0000001415 00000 n 
-trailer << /Size 7 /Root 1 0 R >>
+0000000127 00000 n 
+0000000264 00000 n 
+0000000401 00000 n 
+0000000538 00000 n 
+0000001195 00000 n 
+0000001826 00000 n 
+0000002459 00000 n 
+0000002529 00000 n 
+trailer << /Size 11 /Root 1 0 R >>
 startxref
-1490
+2605
 %%EOF
