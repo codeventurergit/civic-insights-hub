@@ -11,7 +11,7 @@ export class EmbedPortalService {
   getEmbedUrl(type: 'TABLEAU' | 'HTML' | 'PDF'): string {
     switch (type) {
       case 'TABLEAU':
-        return 'https://tableau.com';
+        return 'https://public.tableau.com/views/Route_Optimization_CivicDataHackathon/RouteOptimization?:showVizHome=no&:embed=true';
       case 'HTML':
         return '/mock-html-report.html';
       case 'PDF':
